@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "name01",
+      "desc": "desc01"
+    },
+    {
+      "id": 2,
+      "name": "name02",
+      "desc": "desc02"
+    },
+    {
+      "id": 3,
+      "name": "name03",
+      "desc": "desc03"
+    },
+    {
+      "id": 4,
+      "name": "name04",
+      "desc": "desc04"
+    },
+    {
+      "id": 5,
+      "name": "name05",
+      "desc": "desc05"
+    }
+  ],
+  "whereUse": [
+    {
+      "id": 1,
+      "item_id": 1,
+      "item_sub_id": 2
+    },
+    {
+      "id": 2,
+      "item_id": 3,
+      "item_sub_id": 4
+    },
+    {
+      "id": 3,
+      "item_id": 4,
+      "item_sub_id": 5
+    }
+  ]
+}
