@@ -13,30 +13,30 @@ function App() {
   const data = [
     {
       id: 1,
-      name: "noel",
-      email: "noel@gmail.com",
+      name: "test",
+      email: "test@gmail.com",
     },
     {
       id: 2,
-      name: "noel",
-      email: "noel@gmail.com",
+      name: "test",
+      email: "test@gmail.com",
     },
     {
       id: 3,
-      name: "noel",
-      email: "noel@gmail.com",
+      name: "test",
+      email: "test@gmail.com",
     },
   ];
 
   return (
     <div>
-      <div className="App">
+      {/* <div className="App">
         <div className="container">
           <Table r={tableRef} />
         </div>
-      </div>
+      </div> */}
       <button onClick={onDownload}>export</button>
-      <table>
+      <table ref={tableRef}>
         <thead>
           <tr>
             <th>ID</th>
