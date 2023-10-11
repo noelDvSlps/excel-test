@@ -1,10 +1,10 @@
-import { info } from "../data/info.js";
+// import { info } from "../data/info.js";
 import { items } from "../data/items.js";
 import { TableSection } from "./TableSection.jsx";
-export const Table = ({ r }) => {
+export const Table = () => {
   return (
     <div>
-      <table ref={r} style={{ border: "1px solid red" }}>
+      <table style={{ border: "1px solid red" }}>
         <thead>
           <tr>
             <th></th>

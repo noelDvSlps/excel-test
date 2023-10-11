@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 import useOpenController from "../Hooks/useOpenController";
 import { items } from "../data/items";
 import { whereUse } from "../data/whereUse";
@@ -8,7 +8,7 @@ import { ExpandableButton } from "./ExpandableButton";
 export const TableRow = ({ item, fs, width }) => {
   let cost = 0;
 
-  const { isOpen, toggle, level } = useOpenController(false, 1);
+  const { isOpen, toggle } = useOpenController(false, 1);
   const itemsWhereUse = whereUse.filter((w_item) => {
     return w_item.item_id === item.id;
   });

@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import "./App.css";
 import { useDownloadExcel } from "react-export-table-to-excel";
-import { Table } from "./components/Table";
+// import { Table } from "./components/Table";
 
 function App() {
   const tableRef = useRef(null);

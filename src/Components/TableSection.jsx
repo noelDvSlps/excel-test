@@ -5,13 +5,13 @@ import { ExpandableButton } from "./ExpandableButton";
 import { whereUse } from "../data/whereUse.js";
 import { items } from "../data/items.js";
 
-export const TableSection = ({ item, index }) => {
+export const TableSection = ({ item }) => {
   console.log(`item ${item.name}`);
-  const { isOpen, toggle, level } = useOpenController(false, 1);
+  const { isOpen, toggle } = useOpenController(false, 1);
   const itemsWhereUse = whereUse.filter((w_item) => {
     return w_item.item_id === item.id;
   });
-  let cost = 0;
+  // let cost = 0;
 
   const getCost = (i, c) => {
     console.log(`c ${c}`);
